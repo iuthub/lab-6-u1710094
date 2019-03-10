@@ -1,0 +1,37 @@
+		body{
+			margin-top: 10px;
+			text-align: center;
+		}
+		
+		.input-text{
+			width: 200px;
+			padding: 5px;
+			border: 0px;
+			border-bottom: 1px solid green;
+			text-align: center;
+		}
+		
+		.input-text:focus{
+			border-bottom: 1px solid blue;
+			outline: none;
+		}
+
+		#submit{
+			border-radius: 4px;
+			background-color: green;
+			color: white;
+		}
+		
+		#submit:hover{
+			background-color: lightgreen; 
+		}
+		
+		#left{
+			float: left;
+			padding-left: 300px;
+		}
+
+		#right{
+			float: right;
+			padding-right: 300px;
+		}
